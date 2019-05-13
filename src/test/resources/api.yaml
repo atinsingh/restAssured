@@ -1,0 +1,4 @@
+host: https://pragrablog.herokuapp.com
+basePath:
+api:
+  auth: /api/authenticate
