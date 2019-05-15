@@ -2,21 +2,24 @@ package ca.freedommobile.api.framework.test;
 
 import ca.freedommobile.api.framework.config.Config;
 import ca.freedommobile.api.framework.domain.request.User;
+import ca.freedommobile.api.framework.reports.HTMLReport;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.builder.RequestSpecBuilder;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
+import com.jayway.restassured.response.ValidatableResponse;
 import com.jayway.restassured.specification.RequestSpecification;
 import cucumber.api.CucumberOptions;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.junit.Cucumber;
 import gherkin.deps.com.google.gson.JsonObject;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.runner.RunWith;
 
 import java.util.Map;
@@ -25,8 +28,10 @@ import java.util.Map;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features")
 public class AuthTest {
+
     RestAssured restAssured;
     Response post;
+    private ExtentTest test = HTMLReport.getInstance().getReports().createTest("api-test");
 
     @Test
     public void setUp(){
@@ -58,19 +63,37 @@ public class AuthTest {
     @When("^a user authenticate by username and password$")
     public void aUserAuthenticateByUsernameAndPassword() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        post.then().assertThat().statusCode(200);
+        try {
+            post.then().assertThat().statusCode(200);
+            test.log(Status.PASS,"Status Code 200 is matched");
+        }catch (AssertionError ex){
+            test.log(Status.FAIL,"Status Code 200 NOT matched");
+            throw ex;
+        }
+
     }
 
     @And("^response includes the following$")
     public void responseIncludesTheFollowing(Map<String,String> responseFields) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        System.out.println(post.then().extract().response().body().prettyPrint());
-        Assert.assertTrue( post.then().extract().response().body().prettyPrint().contains("id_token"));
+
+        try {
+            Assert.assertTrue( post.then().extract().response().body().prettyPrint().contains("id_token"));
+            test.log(Status.PASS,"ID_TOKEN Was present in the body");
+        }catch (AssertionError ex){
+            test.log(Status.FAIL, "ID_TOKEN Was missing");
+            throw ex;
+        }
     }
 
     @Then("^the status code is (\\d+)$")
     public void theStatusCodeIs(int arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         post.then().assertThat().statusCode(200);
+    }
+
+    @After
+    public void flush(){
+        System.out.println("FLUSING THE REPORT");
+        HTMLReport.getInstance().getReports().flush();
     }
 }

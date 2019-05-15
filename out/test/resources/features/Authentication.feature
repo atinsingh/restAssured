@@ -5,4 +5,3 @@ Feature: Get Authentication Token
     Then the status code is 200
       And response includes the following
       | id_token 	 	    |   				|
-      | kind				| string    		|
