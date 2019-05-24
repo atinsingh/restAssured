@@ -1,5 +1,9 @@
 package ca.freedommobile.api.framework.domain.request;
 
+/**
+ * @project api-framework
+ * Created By Rsingh on 2019-05-15.
+ */
 
 public class User {
 

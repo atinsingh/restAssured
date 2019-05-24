@@ -2,12 +2,17 @@ package ca.freedommobile.api.framework.config;
 
 import java.util.Map;
 
+/**
+ * @project api-framework
+ * Created By Rsingh on 2019-05-15.
+ */
+
 public class RouteConfig {
 
     private String host;
     private String basePath;
 
-    private Map<String,String> api;
+    private Map<String, String> api;
 
     public Map<String, String> getApi() {
         return api;

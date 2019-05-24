@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02b3ffdf-e96c-4060-bcc7-20cac608b773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aventstack_extentreports_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_json_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_rest_assured_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_rest_assured_common_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_xml_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_core_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_expressions_6_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_html_0_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_java_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_junit_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_datatable_1_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_datatable_dependencies_1_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_gherkin_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_json_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_xml_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_bson_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeatureDataRoamingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Call_Forwarding.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/RouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/RouteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/domain/request/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/domain/request/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/test/AuthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/test/AuthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/Authentication.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AuthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Authentication.feature" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="145" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-framework" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/runtime/java/JavaStepDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepDefinitionMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepTestStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/Runtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#2917#3132#0" expanded="true" />
+                <element signature="e#3131#3132#0" expanded="true" />
+                <element signature="e#7972#7973#0" expanded="true" />
+                <element signature="e#8009#8010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/api/cli/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Substep Feature" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api-test</find>
+      <find>@after</find>
+      <find>status</find>
+      <find>after</find>
+      <find>ContactID</find>
+      <find>@Given</find>
+      <find>@Then</find>
+      <find>@When</find>
+      <find>msisdn_encrypted</find>
+      <find>Given</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/resources/features/AccountAddons.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AccountAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeaturesAddonsGET.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/AccountInfoGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AccountInfoGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccountInfoGETTest.java" />
+        <option value="$PROJECT_DIR$/src/test/AccountInfoGETTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ExtentReporterNG" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeatureAddonsGETTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeatureAddonsGetDataroamingcap.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeatureGetDataroamingcapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeaturesGetDataroamingcapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/old.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeaturesGetDataroamingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeaturesGetDataroamingcap.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/newTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/tstt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/tests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/teeee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/teeeeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/DemoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/RoamingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Authentication.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeatureGetDataroaming.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/AccountInfoGET.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeatureGetDataroamingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AccountInfoGETTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeaturesGetAddons.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/PlanFeaturesGETAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Runner/cucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Freedom_API_TestCases/PlanFeaturesGETAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Freedom_API_TestCases/Get_PlanFeaturesAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/GlobalVariables.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/Get_AccountInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Runner/TCRunner.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/GetAccountInfo.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Call_Forwarding.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/api.yaml" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="1945" />
+    <option name="height" value="1234" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: : 200-GET-Retrieve the Addons by MSISDN.">
+    <configuration name="Feature: GetAccountInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/GetAccountInfo.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: GetAccountInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Get_AccountInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Get_AccountInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Get_PlanFeaturesAddons" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Get_PlanFeaturesAddons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add-ons by MSISDN with invalid path." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AccountAddons.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.test" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="NAME_FILTER" value="^Add\-ons by MSISDN with invalid path\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Add\-ons by MSISDN with invalid path\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add-ons by MSISDN with invalid path." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: GET-Retrieves the account info with invalid id." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="NAME_FILTER" value="^GET\-Retrieves the account info with invalid id\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^GET\-Retrieves the account info with invalid id\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GET-Retrieves the account info with invalid id." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" />
+      <option name="GLUE" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="api-framework.test" />
+      <option name="NAME_FILTER" value="^\: 200\-GET\-Retrieve the Addons by MSISDN\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^\: 200\-GET\-Retrieve the Addons by MSISDN\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: : 200-GET-Retrieve the Addons by MSISDN." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAccountInfoTest.user_submit_the_Get_request_msisdnEncrypted_as_path_param" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-framework.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.freedommobile.api.framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.freedommobile.api.framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="ca.freedommobile.api.framework.testcases.GetAccountInfoTest" />
+      <option name="METHOD_NAME" value="user_submit_the_Get_request_msisdnEncrypted_as_path_param" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: : 200-GET-Retrieve the Addons by MSISDN." />
+        <item itemvalue="Cucumber java.Feature: Get_PlanFeaturesAddons" />
+        <item itemvalue="JUnit.GetAccountInfoTest.user_submit_the_Get_request_msisdnEncrypted_as_path_param" />
+        <item itemvalue="Cucumber java.Scenario: GET-Retrieves the account info with invalid id." />
+        <item itemvalue="Cucumber java.Feature: Get_AccountInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02b3ffdf-e96c-4060-bcc7-20cac608b773" name="Default Changelist" comment="" />
+      <created>1557714293527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557714293527</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 32m 06s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__GET-Retrieves_the_account_info_with_invalid_id_ - 2019.05.23 at 23h 32m 52s.xml">
+      <configuration name="Scenario: GET-Retrieves the account info with invalid id." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="GetAccountInfoTest_user_submit_the_Get_request_msisdnEncrypted_as_path_param - 2019.05.23 at 23h 34m 21s.xml">
+      <configuration name="GetAccountInfoTest.user_submit_the_Get_request_msisdnEncrypted_as_path_param" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__Get_PlanFeaturesAddons - 2019.05.23 at 23h 35m 42s.xml">
+      <configuration name="Feature: Get_PlanFeaturesAddons" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 36m 55s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 38m 27s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 41m 13s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 48m 18s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 48m 34s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 51m 15s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1111" height="705" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33903134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45296168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35191637" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2456446" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32804233" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.45345345" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.328585" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32953465" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33903134" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45296168" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35191637" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2456446" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32804233" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.45345345" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.328585" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32953465" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_framework$Scenario__Add_ons_by_MSISDN_.ic" NAME="Scenario: Add-ons by MSISDN. Coverage Results" MODIFIED="1557716411322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/newTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/PlanFeaturesGetDataroamingcap.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/tstt.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="231" column="6" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/teeeeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/DemoTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Authentication.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AuthTest.java" />
+    <entry file="file://$PROJECT_DIR$/target/reports/report201905171334174.html" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/api/CucumberOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/GlobalVariables.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.9.0/cb860bcc2ef8df705f6e01d81f761a61e063684c/rest-assured-2.9.0-sources.jar!/com/jayway/restassured/response/ExtractableResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.9.0/cb860bcc2ef8df705f6e01d81f761a61e063684c/rest-assured-2.9.0-sources.jar!/com/jayway/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1154" column="6" selection-start-line="1154" selection-start-column="6" selection-end-line="1154" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/json-path/2.9.0/c548d115f49759b5f03c8ad3905ef3a4c7054387/json-path-2.9.0-sources.jar!/com/jayway/restassured/path/json/JsonPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="198" column="17" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.4/20db3e77536b9132ca9708887955f4dec27f71f2/groovy-json-2.4.4-sources.jar!/groovy/json/StringEscapeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="304" column="4" lean-forward="true" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
+          <folding>
+            <element signature="e#2928#2929#0" expanded="true" />
+            <element signature="e#2991#2992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/api/java/Before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/model/FeatureParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/framework-logs/framework.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeatureDataRoamingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/framework-logs/framework_2019-05-14.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Runner/TCRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Call_Forwarding.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/api.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/api/java/en/Then.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/api/java/en/When.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2906#2907#0" expanded="true" />
+            <element signature="e#2958#2959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/Timeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#803#1913#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/runtime/java/JavaStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepDefinitionMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepTestStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#2917#3132#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#7972#7973#0" expanded="true" />
+            <element signature="e#8009#8010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/api/cli/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

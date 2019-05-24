@@ -8,10 +8,15 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * @project api-framework
+ * Created By Rsingh on 2019-05-15.
+ */
 public class HTMLReport {
 
     private ExtentHtmlReporter htmlReporter;
     private ExtentReports reports;
+
     private static HTMLReport instance;
     private Logger logger = LogManager.getLogger(HTMLReport.class);
 
@@ -29,8 +34,8 @@ public class HTMLReport {
         return instance;
     }
 
-    public ExtentReports getReports() {
-        return reports;
+    public ExtentReports getReports()
+    { return reports;
     }
 
 }

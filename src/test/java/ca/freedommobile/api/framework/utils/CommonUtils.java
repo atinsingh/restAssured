@@ -7,6 +7,10 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @project api-framework
+ * Created By Rsingh on 2019-05-15.
+ */
 public class CommonUtils {
 
     public static  String getReportFileName(){

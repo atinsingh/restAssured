@@ -1,4 +1,9 @@
-host: https://pragrablog.herokuapp.com
+host: http://10.200.52.50:8072
 basePath:
 api:
-  auth: /api/authenticate
+  accountinfo-contactid: /api/v1/web/account/accountinfo/{contactId}
+  plan-addons: /api/v1/web/my/services/{msisdnEncrypted}/plan/addons
+  plan-dataroamingcap: /api/v1/web/my/services/{msisdnEncrypted}/dataroamingcap
+  plan-features: /api/v1/web/my/services/{msisdnEncrypted}/plan/FeaturesFiles
+  plan-features-included: /api/v1/web/my/services/{msisdnEncrypted}/plan/FeaturesFiles/included
+
