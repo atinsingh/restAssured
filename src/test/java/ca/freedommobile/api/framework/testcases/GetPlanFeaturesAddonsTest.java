@@ -64,7 +64,7 @@ public class GetPlanFeaturesAddonsTest {
     @Then("status code  should be {int} in response")
     public void statusCodeShouldBeStatus_codeInResponse(Integer statusCode) {
         logger.info("Status code to be matched from Scenario-  {}", statusCode);
-        System.out.println(response.body().print());
+        //System.out.println(response.body().print());
         int code = response.then().extract().statusCode();
         if (statusCode == code) {
             extent.log(Status.PASS, String.format("Response Status code is %d - it matches with the desired code %d", code, statusCode));
@@ -147,6 +147,9 @@ public class GetPlanFeaturesAddonsTest {
 
     }
 
+    @When("User calls account info with  {string} as path param")
+    public void userCallsAccountInfoWithAsPathParam(String arg0) {
+    }
 }
 
 

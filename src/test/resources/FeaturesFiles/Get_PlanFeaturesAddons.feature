@@ -4,12 +4,12 @@
 Feature: Testing Plan,features & Add-ons
 
   Scenario Outline: : 200-GET-Retrieve the Addons by MSISDN.
-    Given user enter the contact ID.
-    When user submit the Get request msisdnEncrypted "<msisdn_encrypted>" as path param
+    Given user enter the MSISDN to retrieve the addons.
+    When user submit the request msisdnEncrypted "<msisdn_encrypted>" as path param to retrieve the addons.
     Then status code  should be <status_code> in response
-    And response body addOnsArray size is <size>
-    And response addOnsArray should include sku "<sku>"
-    And response addOnsArray should include <price>
+    And addons response body addOnsArray size is <size>
+    And addons response body addOnsArray should include sku "<sku>"
+    And addons response addOnsArray should include <price>
     And response addOnsArray should isEnabled "<is_enabled>"
     And response addOnsArray should isRemoveable "<is_removeable>"
     Examples:

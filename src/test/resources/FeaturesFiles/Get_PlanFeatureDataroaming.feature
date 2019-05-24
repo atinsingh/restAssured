@@ -16,7 +16,6 @@ Feature: Testing Plan,features & Add-ons
       | msisdn_encrypted|status_code|size| sku|price|is_enabled |is_removeable|
       |5555550012  | 200        |   6 |Unlimited LD calling and text to USA |10 |true  | true  |
 
-
   Scenario Outline: 400-GET-Data Roaming Cap info by invalid msisdn.
     Given user enter the invalid MSISDM or wrong api path.
     When user submit the Get request msisdnEncrypted  "<msisdn_encrypted>" as path param

@@ -1,75 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b3ffdf-e96c-4060-bcc7-20cac608b773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aventstack_extentreports_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_json_path_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_rest_assured_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_rest_assured_common_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_restassured_xml_path_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_core_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_expressions_6_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_html_0_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_java_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_cucumber_junit_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_datatable_1_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_datatable_dependencies_1_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_gherkin_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_json_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_xml_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_bson_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api-framework.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeatureDataRoamingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Call_Forwarding.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="02b3ffdf-e96c-4060-bcc7-20cac608b773" name="Default Changelist" comment="Added some changes">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json/api.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/RouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/config/RouteConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/domain/request/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/domain/request/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/test/AuthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ca/freedommobile/api/framework/test/AuthTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/features/Authentication.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/domain/request/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/reports/HTMLReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AuthTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Authentication.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -111,98 +47,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/runtime/java/JavaStepDefinition.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="180">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepDefinitionMatch.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/PickleStepTestStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/TestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runner/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/runtime/Runtime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="460">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
               <folding>
-                <element signature="e#2917#3132#0" expanded="true" />
-                <element signature="e#3131#3132#0" expanded="true" />
-                <element signature="e#7972#7973#0" expanded="true" />
-                <element signature="e#8009#8010#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/4.3.0/32455d301453db80e949d03a4beab9b04d717a07/cucumber-core-4.3.0-sources.jar!/cucumber/api/cli/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -238,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/AccountAddons.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AccountAddonsTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/PlanFeaturesAddonsGET.feature" />
         <option value="$PROJECT_DIR$/src/test/java/AccountInfoGetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/AccountInfoGetTest.java" />
@@ -281,14 +158,16 @@
         <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/Runner/TCRunner.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/GetAccountInfo.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Call_Forwarding.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/api.yaml" />
         <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/json/apijson" />
+        <option value="$PROJECT_DIR$/src/test/resources/json/api.json" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature" />
       </list>
     </option>
   </component>
@@ -320,6 +199,116 @@
               <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FeaturesFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -346,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: : 200-GET-Retrieve the Addons by MSISDN.">
+  <component name="RunManager" selected="Cucumber java.Scenario: GET-Retrieves the account info with invalid id.">
     <configuration name="Feature: GetAccountInfo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/FeaturesFiles/GetAccountInfo.feature" />
@@ -476,10 +465,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: GET-Retrieves the account info with invalid id." />
         <item itemvalue="Cucumber java.Scenario: : 200-GET-Retrieve the Addons by MSISDN." />
         <item itemvalue="Cucumber java.Feature: Get_PlanFeaturesAddons" />
         <item itemvalue="JUnit.GetAccountInfoTest.user_submit_the_Get_request_msisdnEncrypted_as_path_param" />
-        <item itemvalue="Cucumber java.Scenario: GET-Retrieves the account info with invalid id." />
         <item itemvalue="Cucumber java.Feature: Get_AccountInfo" />
       </list>
     </recent_temporary>
@@ -498,12 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 32m 06s.xml">
-      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__GET-Retrieves_the_account_info_with_invalid_id_ - 2019.05.23 at 23h 32m 52s.xml">
-      <configuration name="Scenario: GET-Retrieves the account info with invalid id." configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="GetAccountInfoTest_user_submit_the_Get_request_msisdnEncrypted_as_path_param - 2019.05.23 at 23h 34m 21s.xml">
       <configuration name="GetAccountInfoTest.user_submit_the_Get_request_msisdnEncrypted_as_path_param" configurationId="JUnit" />
     </history-entry>
@@ -528,6 +511,12 @@
     <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.23 at 23h 51m 15s.xml">
       <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario____200-GET-Retrieve_the_Addons_by_MSISDN_ - 2019.05.24 at 09h 44m 06s.xml">
+      <configuration name="Scenario: : 200-GET-Retrieve the Addons by MSISDN." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__GET-Retrieves_the_account_info_with_invalid_id_ - 2019.05.24 at 10h 54m 25s.xml">
+      <configuration name="Scenario: GET-Retrieves the account info with invalid id." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +531,7 @@
     <frame x="-7" y="-7" width="1111" height="705" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33903134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15479583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +546,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2456446" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2456446" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32804233" />
@@ -604,17 +593,9 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32953465" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/api_framework$Scenario__Add_ons_by_MSISDN_.ic" NAME="Scenario: Add-ons by MSISDN. Coverage Results" MODIFIED="1557716411322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -622,8 +603,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/newTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/PlanFeaturesGetDataroamingcap.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test/tstt.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/framework-logs/framework_2019-05-14.log">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -727,23 +699,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/utils/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -789,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/api.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.0/daa15275d7c4128c58c5e0e231ecce93ba6c41a5/cucumber-java-4.3.0-sources.jar!/cucumber/api/java/en/Then.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -807,49 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2906#2907#0" expanded="true" />
-            <element signature="e#2958#2959#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,17 +838,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/json/api.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state>
+          <caret column="43296" lean-forward="true" selection-start-column="43296" selection-end-column="43296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/config/RouteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/api.yaml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/ApiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetAccountInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2906#2907#0" expanded="true" />
+            <element signature="e#2958#2959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeatureDataroaming.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/testcases/GetPlanFeaturesAddonsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_PlanFeaturesAddons.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FeaturesFiles/Get_AccountInfo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
