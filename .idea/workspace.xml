@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b3ffdf-e96c-4060-bcc7-20cac608b773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/apis/APIManger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/apis/APIManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/apis/APIManger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -115,9 +115,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/apis/APIManger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="129">
+              <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
               </folding>
@@ -677,7 +678,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558926439557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558926747018" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/test" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -855,7 +856,7 @@
       <updated>1557714293527</updated>
       <workItem from="1558711295572" duration="444000" />
       <workItem from="1558723276551" duration="368000" />
-      <workItem from="1558925022739" duration="1428000" />
+      <workItem from="1558925022739" duration="1828000" />
     </task>
     <servers />
   </component>
@@ -892,7 +893,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2240000" />
+    <option name="totallyTimeSpent" value="2640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,7 +908,7 @@
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3579639" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3579639" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -922,7 +923,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2631579" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2631579" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32804233" />
@@ -1291,9 +1292,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/freedommobile/api/framework/apis/APIManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="129">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
           </folding>

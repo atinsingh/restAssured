@@ -107,7 +107,7 @@ public class APIManger {
     public static APIManger getInstance(){
         synchronized (apiManger){
             if(apiManger==null){
-                apiManger = new APIManger()
+                apiManger = new APIManger();
             }
         }
         return apiManger;
