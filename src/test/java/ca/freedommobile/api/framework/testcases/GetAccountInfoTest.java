@@ -1,5 +1,6 @@
 package ca.freedommobile.api.framework.testcases;
 
+import ca.freedommobile.api.framework.apis.APIManger;
 import ca.freedommobile.api.framework.config.Config;
 import ca.freedommobile.api.framework.reports.HTMLReport;
 import com.aventstack.extentreports.ExtentTest;
@@ -21,6 +22,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.runner.RunWith;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static com.jayway.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
@@ -29,12 +33,13 @@ import static org.hamcrest.Matchers.*;
  * Created By Rsingh on 2019-05-13.
  */
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 public class GetAccountInfoTest {
     private ExtentTest extent;
     Response response;
 
     Logger logger = LogManager.getLogger(GetAccountInfoTest.class);
+
 
     @Before
     public void before(Scenario scenario) {
@@ -46,8 +51,10 @@ public class GetAccountInfoTest {
     public void user_submit_the_Get_request_msisdnEncrypted_as_path_param(String contactId) {
         contactId = StringEscapeUtils.unescapeJava(contactId);
         baseURI = Config.getProperty("host");
-        response = given().pathParam("contactId", contactId)
-                .get(Config.getProperty("api.accountinfo-contactid"));
+        Map<String, Object> map = new HashMap<>();
+        map.put("contactId", contactId);
+        response = APIManger.getInstance().doGet(Config.getProperty("api.accountinfo-contactid"),map,null);
+
         extent.log(Status.INFO, "API called with contact ID  " + contactId);
     }
 
